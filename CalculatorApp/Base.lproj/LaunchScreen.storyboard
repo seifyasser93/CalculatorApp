@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,28 +18,32 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Calc" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-x0-h7h">
-                                <rect key="frame" x="40" y="136" width="240" height="206"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calc" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-x0-h7h">
+                                <rect key="frame" x="62" y="145" width="290" height="345"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJQ-56-APv">
-                                <rect key="frame" x="40" y="350" width="240" height="83"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJQ-56-APv">
+                                <rect key="frame" x="62" y="500" width="290" height="36"/>
                                 <color key="backgroundColor" red="0.42748081684112549" green="0.74534326791763306" blue="0.77292197942733765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.98835748434066772" green="0.9805874228477478" blue="0.98026341199874878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99992352724075317" green="1" blue="0.99988299608230591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YJQ-56-APv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="24" id="83b-lY-9gx"/>
-                            <constraint firstItem="tDk-x0-h7h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="24" id="89s-yl-fFG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tDk-x0-h7h" secondAttribute="trailing" constant="24" id="KvX-0a-uUP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YJQ-56-APv" secondAttribute="trailing" constant="24" id="efd-TV-y5S"/>
-                            <constraint firstItem="YJQ-56-APv" firstAttribute="width" secondItem="tDk-x0-h7h" secondAttribute="width" id="tor-Qs-2gW"/>
-                            <constraint firstItem="YJQ-56-APv" firstAttribute="height" secondItem="tDk-x0-h7h" secondAttribute="height" id="z11-hM-pgQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="YJQ-56-APv" secondAttribute="bottom" constant="200" id="4es-Bs-A28"/>
+                            <constraint firstAttribute="trailing" secondItem="tDk-x0-h7h" secondAttribute="trailing" constant="62" id="7ZM-lL-o9w"/>
+                            <constraint firstItem="tDk-x0-h7h" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="125" id="CKf-2e-T1Z"/>
+                            <constraint firstItem="tDk-x0-h7h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="62" id="H66-H1-wzi"/>
+                            <constraint firstItem="YJQ-56-APv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="62" id="Pbd-GZ-860"/>
+                            <constraint firstItem="YJQ-56-APv" firstAttribute="leading" secondItem="tDk-x0-h7h" secondAttribute="leading" id="YL6-ef-fvH"/>
+                            <constraint firstAttribute="trailing" secondItem="YJQ-56-APv" secondAttribute="trailing" constant="62" id="dDk-yr-Uvc"/>
+                            <constraint firstItem="YJQ-56-APv" firstAttribute="centerX" secondItem="tDk-x0-h7h" secondAttribute="centerX" id="mSK-Xu-dWW"/>
+                            <constraint firstItem="YJQ-56-APv" firstAttribute="top" secondItem="tDk-x0-h7h" secondAttribute="bottom" constant="10" id="mZa-TB-CD0"/>
+                            <constraint firstItem="YJQ-56-APv" firstAttribute="trailing" secondItem="tDk-x0-h7h" secondAttribute="trailing" id="nXd-Eb-N07"/>
                         </constraints>
                     </view>
                 </viewController>
