@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calc" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-x0-h7h">
-                                <rect key="frame" x="62" y="145" width="290" height="345"/>
+                                <rect key="frame" x="62" y="220" width="290" height="270"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJQ-56-APv">
                                 <rect key="frame" x="62" y="500" width="290" height="36"/>
@@ -36,7 +36,7 @@
                         <constraints>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="YJQ-56-APv" secondAttribute="bottom" constant="200" id="4es-Bs-A28"/>
                             <constraint firstAttribute="trailing" secondItem="tDk-x0-h7h" secondAttribute="trailing" constant="62" id="7ZM-lL-o9w"/>
-                            <constraint firstItem="tDk-x0-h7h" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="125" id="CKf-2e-T1Z"/>
+                            <constraint firstItem="tDk-x0-h7h" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="200" id="CKf-2e-T1Z"/>
                             <constraint firstItem="tDk-x0-h7h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="62" id="H66-H1-wzi"/>
                             <constraint firstItem="YJQ-56-APv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="62" id="Pbd-GZ-860"/>
                             <constraint firstItem="YJQ-56-APv" firstAttribute="leading" secondItem="tDk-x0-h7h" secondAttribute="leading" id="YL6-ef-fvH"/>
